@@ -6,3 +6,145 @@ Green: #00B172
 White: #FFF
 
 */
+html, body {
+    color: #1A1A1A;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+header {
+    background-color:#FFF;
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255,255,255,0.6);
+}
+header a {
+    position: relative;
+    transition:all .2s ease;
+}
+header a:after {
+    
+    position: absolute;
+ 
+}
+header img:hover img{
+    height: 1.1em;
+}
+header li:hover a{
+    
+    font-size: 1.1em;
+    font-weight: bold;
+}
+header img {
+    margin-top: 2px;
+    margin-left: 5px;
+    height: 40px;
+}
+header ul {
+    list-style-type: none;
+    display: flex;
+    align-content: center;
+}
+header ul li {
+    padding: 0 10px;
+    
+}
+header ul a {
+    color: #1A1A1A;
+    text-decoration: none;
+}
+#slogan {
+ background-image: url(/Primer-css/lab-css-spotify-clone/images/landing.jpg);
+ background-size: cover;
+ height: 600px;
+ color: #FFF;
+ text-align: center;
+ padding-top:280px;
+}
+#slogan h2 {
+    font-size: 4em;
+}
+#slogan p {
+    padding: 0 16%;
+    font-size: 1.5em;
+}
+#intro {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#intro h2 {
+    width: fit-content;
+    padding-bottom: 5px;
+    font-size: 2em;
+    border-bottom: #00B172 solid;
+}
+#intro article{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content:space-evenly;
+}
+#intro div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 66px;
+    width: 200px;
+    height: 260px;
+    align-items: center;
+    text-align: center;
+}
+#intro h3 {
+    color: #00B172;
+}
+#intro img {
+    margin: 0 22.5%;
+    height: 35%;
+}
+
+#green {
+
+    margin:0 20px;
+    color:#FFF;
+    background-color: #00B172;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    align-items: center;
+    height: 700px;
+
+}
+#green h2{
+    font-size: 2rem;
+    width: fit-content;
+    padding-bottom: 5px;
+    font-size: 2em;
+    border-bottom: #FFF solid;
+}
+#green article {
+    height: 600px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#green div {
+    width: 400px;
+}
+
+.logo img{
+    margin-top: 50%;
+    height: 20%;
+}
+.app img{
+    margin-right: 10vw;
+    height: 600px;
+}
